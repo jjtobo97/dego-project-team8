@@ -9,6 +9,7 @@ DEGO Coure Project - Team 8
 \# # Team Members
 
 \- Juan Tobar 
+\- Javiera Prenafeta
 
 \## Project Description
 
