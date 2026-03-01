@@ -11,6 +11,7 @@ DEGO 2606 Group Project– Credit Application Governance Analysis - Team 8
 
 ## Project Structure
 
+```text
 project-team8/
 |── README.md/                   # Project overview & findings summary
 │── data/                        # Data files (or links)
@@ -20,3 +21,4 @@ project-team8/
 |   |── 03-privacy-demo.ipynb/ 
 |── src/                         # Reusable code 
 │── presentaton/                 # Video file or link
+```
