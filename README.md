@@ -8,6 +8,7 @@ DEGO 2606 Group Project– Credit Application Governance Analysis - Team 8
 
 - Juan Tobar (70785)
 - Javiera Prenafeta (75087)
+- Duarte Carvalho (59479)
 
 ## Project Structure
 
