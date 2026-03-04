@@ -1,0 +1,8 @@
+metric,value
+source_file_used,cleaned_credit_data.csv
+rows_processed,500
+columns_processed,23
+key_pii_fields_present,"applicant_info.full_name, applicant_info.email, applicant_info.ssn, applicant_info.ip_address, applicant_info.date_of_birth, applicant_info.zip_code, applicant_info.gender, spending_behavior, decision.loan_approved, decision.rejection_reason, decision.interest_rate, decision.approved_amount, financials.annual_income"
+pseudonymized_columns,"applicant_info.ssn_pseudo, applicant_info.email_pseudo, applicant_info.full_name_pseudo, applicant_info.ip_address_pseudo"
+minimized_columns_dropped,"applicant_info.full_name, applicant_info.email, applicant_info.ssn, applicant_info.ip_address, applicant_info.date_of_birth, applicant_info.zip_code, spending_behavior, notes, applicant_info.gender"
+outputs_written,"pii_inventory.csv, credit_data_pseudonymized.csv, credit_data_minimized.csv, audit_trail.json, governance_controls_summary.json, privacy_governance_summary.csv"

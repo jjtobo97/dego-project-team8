@@ -1,0 +1,24 @@
+column_name,classification,gdpr_category,risk_level,present_in_data,non_null_count,non_null_pct,governance_note
+applicant_info.full_name,Direct identifier,Personal data (identifier),High,True,500,100.0,Pseudonymize; do not use in modeling; restrict access.
+applicant_info.email,Direct identifier (contact),Personal data (contact),High,True,489,97.8,Pseudonymize; store separately; restrict access.
+applicant_info.ssn,National identifier,Personal data (unique identifier),High,True,496,99.2,Strongly protect; pseudonymize; never expose; consider tokenization.
+applicant_info.ip_address,Online identifier,Personal data (online identifier),High,True,496,99.2,Pseudonymize; consider truncation; protect in logs.
+applicant_info.date_of_birth,Quasi-identifier,Personal data (demographic),Medium,True,495,99.0,Minimize to age band; avoid storing full DOB in operational dataset.
+applicant_info.zip_code,Quasi-identifier / proxy,Personal data (location),Medium,True,499,99.8,Minimize to ZIP3 (or similar) to reduce re-identification risk.
+applicant_info.gender,Protected attribute,Personal data (demographic),Medium,True,498,99.6,Do not keep in operational dataset; retain only in controlled fairness/audit environment if needed.
+spending_behavior,Behavioral profiling input,Profiling / behavioral data,High,True,500,100.0,Minimize to aggregates; treat sensitive categories carefully; document purpose/necessity.
+decision.loan_approved,Automated decision output,Decision data (profiling outcome),High,True,500,100.0,Maintain audit trail; enable human review; store model version and rationale.
+decision.rejection_reason,Decision rationale,Decision explanation data,High,True,208,41.6,Maintain traceability; ensure explanations are accurate and reviewable.
+decision.interest_rate,Decision output,Decision data (profiling outcome),Medium,True,292,58.4,Maintain traceability and human oversight when algorithmic.
+decision.approved_amount,Decision output,Decision data (profiling outcome),Medium,True,292,58.4,Maintain traceability and human oversight when algorithmic.
+financials.annual_income,Financial attribute,Personal data (financial),Medium,True,500,100.0,Limit access; use only as necessary; document purpose and retention.
+_id,Other / business data,Not classified,Low,True,500,100.0,Review if used for profiling or if it can identify a person when combined.
+age_calculated,Other / business data,Not classified,Low,True,200,40.0,Review if used for profiling or if it can identify a person when combined.
+dob_parsed,Other / business data,Not classified,Low,True,200,40.0,Review if used for profiling or if it can identify a person when combined.
+financials.credit_history_months,Other / business data,Not classified,Low,True,500,100.0,Review if used for profiling or if it can identify a person when combined.
+financials.debt_to_income,Other / business data,Not classified,Low,True,500,100.0,Review if used for profiling or if it can identify a person when combined.
+financials.savings_balance,Other / business data,Not classified,Low,True,500,100.0,Review if used for profiling or if it can identify a person when combined.
+loan_purpose,Other / business data,Not classified,Low,True,500,100.0,Review if used for profiling or if it can identify a person when combined.
+notes,Other / business data,Not classified,Low,True,0,0.0,Review if used for profiling or if it can identify a person when combined.
+processing_timestamp,Other / business data,Not classified,Low,True,62,12.4,Review if used for profiling or if it can identify a person when combined.
+ssn_conflict_flag,Other / business data,Not classified,Low,True,500,100.0,Review if used for profiling or if it can identify a person when combined.

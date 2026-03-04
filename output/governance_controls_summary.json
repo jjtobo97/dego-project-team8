@@ -1,0 +1,108 @@
+[
+  {
+    "control_name": "PII inventory",
+    "purpose": "Identify direct identifiers, quasi-identifiers, profiling inputs, and decision outputs.",
+    "implemented_in_code": true,
+    "status": "implemented",
+    "related_gdpr_articles": [
+      "Art. 25",
+      "Art. 5(1)(c)"
+    ],
+    "related_ai_act_obligation": "Data governance & documentation",
+    "owner": "Governance Officer"
+  },
+  {
+    "control_name": "Pseudonymization",
+    "purpose": "Reduce re-identification risk by hashing identifiers with a salt.",
+    "implemented_in_code": true,
+    "status": "implemented",
+    "related_gdpr_articles": [
+      "Art. 25",
+      "Art. 32"
+    ],
+    "related_ai_act_obligation": "Record-keeping / traceability support",
+    "owner": "Governance Officer"
+  },
+  {
+    "control_name": "Data minimization",
+    "purpose": "Reduce granularity (DOB→age band, ZIP→ZIP3) and minimize sensitive behavioral detail.",
+    "implemented_in_code": true,
+    "status": "implemented",
+    "related_gdpr_articles": [
+      "Art. 5(1)(c)",
+      "Art. 25"
+    ],
+    "related_ai_act_obligation": "Data governance",
+    "owner": "Governance Officer"
+  },
+  {
+    "control_name": "Audit trail",
+    "purpose": "Traceability of processing actions (dataset loaded, transformations applied, outputs written).",
+    "implemented_in_code": true,
+    "status": "implemented",
+    "related_gdpr_articles": [
+      "Art. 25",
+      "Art. 32"
+    ],
+    "related_ai_act_obligation": "Logging / record-keeping",
+    "owner": "Governance Officer"
+  },
+  {
+    "control_name": "Consent tracking",
+    "purpose": "Capture consent state where applicable; document lawful basis where consent is not used.",
+    "implemented_in_code": false,
+    "status": "proposed",
+    "related_gdpr_articles": [
+      "Art. 6",
+      "Art. 25"
+    ],
+    "related_ai_act_obligation": "Governance documentation",
+    "owner": "Data Controller / Governance"
+  },
+  {
+    "control_name": "Retention policy",
+    "purpose": "Define and enforce retention schedule for raw PII and derived datasets.",
+    "implemented_in_code": false,
+    "status": "proposed",
+    "related_gdpr_articles": [
+      "Art. 5(1)(e)",
+      "Art. 25"
+    ],
+    "related_ai_act_obligation": "Record-keeping & lifecycle management",
+    "owner": "Governance + Data Engineering"
+  },
+  {
+    "control_name": "Human oversight",
+    "purpose": "Human review for automated credit decisions and overrides with documentation.",
+    "implemented_in_code": false,
+    "status": "proposed",
+    "related_gdpr_articles": [
+      "Art. 22"
+    ],
+    "related_ai_act_obligation": "Human oversight",
+    "owner": "Operations / Risk Team"
+  },
+  {
+    "control_name": "Right-to-erasure workflow",
+    "purpose": "Operational process to locate and delete personal data upon request.",
+    "implemented_in_code": false,
+    "status": "proposed",
+    "related_gdpr_articles": [
+      "Art. 17"
+    ],
+    "related_ai_act_obligation": "Governance / record-keeping",
+    "owner": "Data Controller / Governance"
+  },
+  {
+    "control_name": "Model/version logging",
+    "purpose": "Record model version, decision source, and feature snapshot reference for traceability.",
+    "implemented_in_code": false,
+    "status": "proposed",
+    "related_gdpr_articles": [
+      "Art. 22",
+      "Art. 25"
+    ],
+    "related_ai_act_obligation": "Logging / traceability",
+    "owner": "ML Engineering / Governance"
+  }
+]
