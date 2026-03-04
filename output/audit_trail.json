@@ -1,10 +1,10 @@
 [
   {
-    "run_id": "privacy_20260304T144552Z",
-    "timestamp_utc": "2026-03-04T14:45:52.730374+00:00",
+    "run_id": "privacy_20260304T192355Z",
+    "timestamp_utc": "2026-03-04T19:23:55.728966+00:00",
     "action": "dataset_loaded",
     "details": {
-      "path": "c:/Users/divak/Documents/dego-project-team8/dego-project-team8/cleaned_credit_data.csv",
+      "path": "c:/Users/divak/Documents/dego-project-team8/dego-project-team8/data/cleaned_credit_data.csv",
       "rows": 500,
       "columns": 23
     },
@@ -12,8 +12,8 @@
     "record_count": 500
   },
   {
-    "run_id": "privacy_20260304T144552Z",
-    "timestamp_utc": "2026-03-04T14:45:52.731366+00:00",
+    "run_id": "privacy_20260304T192355Z",
+    "timestamp_utc": "2026-03-04T19:23:55.728966+00:00",
     "action": "pii_inventory_created",
     "details": {
       "key_fields_present": [
@@ -40,8 +40,8 @@
     "record_count": 500
   },
   {
-    "run_id": "privacy_20260304T144552Z",
-    "timestamp_utc": "2026-03-04T14:45:52.731366+00:00",
+    "run_id": "privacy_20260304T192355Z",
+    "timestamp_utc": "2026-03-04T19:23:55.728966+00:00",
     "action": "pseudonymization_applied",
     "details": {
       "pseudonymized_columns": [
@@ -55,8 +55,8 @@
     "record_count": 500
   },
   {
-    "run_id": "privacy_20260304T144552Z",
-    "timestamp_utc": "2026-03-04T14:45:52.732379+00:00",
+    "run_id": "privacy_20260304T192355Z",
+    "timestamp_utc": "2026-03-04T19:23:55.728966+00:00",
     "action": "data_minimization_applied",
     "details": {
       "dropped_columns": [
