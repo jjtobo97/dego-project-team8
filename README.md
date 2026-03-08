@@ -45,6 +45,8 @@ dego-project-team8/
 │   ├── pii_inventory.csv
 │   └── privacy_governance_summary.csv
 ├── presentation/
+│   ├── Data Governance Presentation Group 8.pdf
+│   └── DEGO Project Team 8.mp4
 ├── reports/
 └── src/
     ├── __init__.py
@@ -138,6 +140,14 @@ Key GDPR gaps identified in the raw dataset: no pseudonymization on any field, n
 7. **Run quarterly bias audits** using the Disparate Impact Ratio as a monitoring metric, with a mandatory review if DI drops below 0.8 for any protected group.
 8. **Formalise a consent mechanism** that clearly explains to applicants how their data is used in automated decision-making (GDPR Art. 13/14 and Art. 22).
 9. **Conduct a Data Protection Impact Assessment (DPIA)** before any production deployment, as required for high-risk processing under GDPR Art. 35.
+
+---
+
+# Presentation
+
+The video presentation and slides are available in the `presentation/` folder of this repository and also via Google Drive:
+
+📁 [Access presentation folder on Google Drive](https://drive.google.com/drive/folders/16JzyVO7EGj_7RKLgCMnPjo4jbeVBoOIa?usp=sharing)
 
 ---
 
